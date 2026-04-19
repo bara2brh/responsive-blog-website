@@ -45,14 +45,21 @@ li a {
     font-weight: 500;
 }
 li a:hover , li a.active{
-   border-bottom: 1px solid black;
+   border-bottom: 1.5px solid black;
 }
-
+main{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    
+}
 /* featured blog styling */
 .featured-blog{
+    grid-area: featured;
+    grid-column: 1/-1;
+    grid-row: 1;
     background: url(images/blog-image-hero.png);
     color: white;
-    height: 27vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -76,4 +83,28 @@ li a:hover , li a.active{
 
 .featured-blog a:hover {
     text-decoration: underline;
+}
+.featured-blog .blog-description{
+    color: #ffffff;
+}
+
+/* blog styling */
+
+
+.blog-container{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ padding: 1.5rem;
+ gap: 1.5rem;
+  justify-items: center;
+}
+.blog-image{
+    border-radius: 5px;
+}
+.blog-date,.blog-title,.blog-description{
+    margin: 5px 0;
+}
+
+.blog-description{
+    color: #505050;
 }
