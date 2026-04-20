@@ -86,11 +86,25 @@ main , about {
         "image descr descr";
     padding: 4rem;
     margin: 0;
+    /* max-height: 17vh; */
     
 }
 .recent {
     text-align: center;
     grid-column: 1 / -1;
+}
+.blog-content {
+    padding: 0 4rem;
+}
+
+#blog-img {
+    width: 90vw;
+    margin: auto;
+    display: block;
+}
+
+.blog-date , .blog-title  {
+     padding: 0 4rem;
 }
 
 .avatar {
