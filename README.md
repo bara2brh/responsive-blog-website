@@ -1,5 +1,6 @@
 # a simple responsive design for blog website (desktop / mobile)
 
+demo URL : https://bara2brh.github.io/responsive-blog-website/
 
 <img width="1598" height="949" alt="image" src="https://github.com/user-attachments/assets/5d5b71fd-e0dd-44d1-880b-9b997474d146" />
 
